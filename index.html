@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css_reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="horizontal-flex">
+      <div class="left-bar">
+        <div class="black-band">
+            <img src="assets/odin-logo.png" alt="odin"/>
+            <div class="odin-text">ODIN</div>
+        </div>
+        <div class="credits">
+            Photo by Hailie West on Unsplash
+        </div>
+      </div>
+      <div class="right-bar">
+        <div class="vertical-flex">
+          <div class="grey-bg">
+            <div class="highlited-text">
+              This is not a real online service! You know you need something
+              like this in your life yo help you realize your deepest dreams.
+              Sign up now to get started.
+            </div>
+            <div class="highlited-text">You know you cant to.</div>
+
+            <form action="http://127.0.0.1:5500/" method="post">
+              <div class="white-bg shadow">
+                <h1>Let's do this!</h1>
+                <div class="horizontal-flex">
+                  <div class="input-group">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" name="firstname" id="firstname" />
+                    <label for="firstname">EMAIL</label>
+                    <input type="email" name="email" id="email" />
+                    <label for="firstname">PASSWORD</label>
+                    <input type="password" name="password" id="password" />
+                  </div>
+                  <div class="input-group">
+                    <label for="firstname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lastname" />
+                    <label for="firstname">PHONE NUMBER</label>
+                    <input type="number" name="phonenumber" id="phonenumber" />
+                    <label for="firstname">CONFIRM PASSWORD</label>
+                    <input
+                      type="password"
+                      name="confirmpassword"
+                      id="confirmpassword"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+            <button type="submit" class="green-button">Create Account</button>
+            <div class="small-highlited-text">
+              Already have an account? <a class="link" href="#">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>
